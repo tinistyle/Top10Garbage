@@ -83,3 +83,7 @@ b = a+c
 4. git add + commit
 5. 提交到远程仓库：`git push -u origin master`
 6. 新建一个gh-pages分支，用于HTTP访问，只保留_book中编译成功的文件，并提交分支
+
+
+## 部署到自己的服务器
+使用Nginx，将_book文件夹下的文件传到Nginx的一个server下
