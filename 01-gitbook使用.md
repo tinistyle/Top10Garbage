@@ -82,3 +82,4 @@ b = a+c
 3. 新建一个仓库，绑定：`git remote add origin git@github.com:tinistyle/gitbook.git`
 4. git add + commit
 5. 提交到远程仓库：`git push -u origin master`
+6. 新建一个gh-pages分支，用于HTTP访问，只保留_book中编译成功的文件，并提交分支
